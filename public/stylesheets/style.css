@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(to right, #00364b, #001836);
+	color: rgb(237, 232, 255);
+}
+
+h1 {
+	font-family: "Rubik Moonrocks", serif;
+	color: rgb(237, 232, 255);
+}
+
+h2 {
+	text-decoration: wavy underline;
+	text-decoration-color: rgb(237, 232, 255);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	background: hsl(223, 69%, 5%);
+	padding-inline: 1.5em;
+	padding-block: 2em;
+	border-radius: 8px;
+	min-width: 25em;
+	gap: 1em;
+	margin: 0 auto;
+	box-shadow: inset 2px 2px 10px rgba(0, 0, 0),
+		inset -2px -2px 10px rgba(255, 255, 255, 0.5),
+		-2px -2px 10px rgba(255, 255, 255, 0.5), 2px 2px 10px rgba(0, 0, 0);
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-size: 2rem;
+	color: white;
+}
+
+.card {
+	background: hsl(223, 69%, 5%);
+	padding: 1.5em;
+	border-radius: 10px;
+	min-width: 25em;
+	gap: 1em;
+	margin: 1em auto;
+	box-shadow: 0 0 10px rgba(138, 138, 138, 0.547),
+		0 0 10px rgba(138, 138, 138, 0.447), 0 0 10px rgba(138, 138, 138, 0.347),
+		0 0 10px rgba(138, 138, 138, 0.247), 0 0 10px rgba(138, 138, 138, 0.147);
+	transition: 0.3s ease-out;
+	cursor: pointer;
+}
+
+.card:hover {
+	background: hsl(223, 69%, 10%);
+	transform: scaleX(1.1);
+}
+
+.btn {
+	margin: 2em;
+}
